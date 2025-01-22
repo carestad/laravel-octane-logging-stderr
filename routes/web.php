@@ -3,8 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/log', function () {
-    logger()->debug("debug");
-    logger()->info("info");
-    logger()->warn("warn");
-    logger()->error("error!");
+    logger()->debug("debug log");
+    logger()->info("info log");
+    logger()->warning("warning log");
+    logger()->error("error log!");
 });
